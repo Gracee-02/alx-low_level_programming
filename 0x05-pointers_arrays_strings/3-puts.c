@@ -5,12 +5,16 @@
  * _puts - a function that prints a string followed by a new line
  * @str: the variable storing the string
  *
- * Retrun: nothing
+ * Return: nothing
  *
  */
 
 void _puts(char *str)
 {
-	putchar(str);
+	int sen;
+
+	sen = *str;
+
+	putchar(sen);
 	putchar('\n');
 }
