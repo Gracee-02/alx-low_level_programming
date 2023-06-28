@@ -7,7 +7,7 @@
  * Return: nothing
  */
 
-void _putchar(char s)
+void _putchar(char *s)
 {
-	printf("%c", s);
+	printf("%s", s);
 }
