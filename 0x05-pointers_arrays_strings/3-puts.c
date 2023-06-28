@@ -13,8 +13,11 @@ void _puts(char *str)
 {
 	int sen;
 
-	sen = *str;
+	sen = stren(str);
 
-	putchar(sen);
-	putchar('\n');
+	for (i = 0; i < sen; i++)
+	{
+		putchar(str[i]);
+		putchar('\n');
+	}
 }
